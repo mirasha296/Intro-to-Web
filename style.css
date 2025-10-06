@@ -1,0 +1,32 @@
+/* Page background color */
+html {
+    background-color: rgb(151, 131, 125); /* outer background */
+}
+
+/* Reset common text styles */
+* {
+    font-family: Arial, sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+/* Inner box (your content area) */
+body {
+    margin: 40px auto; /* centers it */
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: rgb(100, 81, 75); /* inside box color */
+}
+
+h1, p {
+    text-align: center;
+    margin: 0; /* remove extra spacing */
+}
+
+/* Optional: style your list */
+ul {
+    list-style-type: "🌸 - ";
+}
