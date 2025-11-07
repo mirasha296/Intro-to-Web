@@ -1,25 +1,90 @@
+/* -----------------------------------------
+CSS RESET
+-----------------------------------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
 body {
-	line-height: 1;
+line-height: 1;
 }
 ol, ul {
-	list-style: none;
+list-style: none;
 }
 blockquote, q {
-	quotes: none;
+quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+content: '';
+content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+border-collapse: collapse;
+border-spacing: 0;
+}
+/* -----------------------------------------
+TABLE OF CONTENTS
+-----------------------------------------
+1. Color Library
+2. General Styles
+3. Grid Styles
+4. Navigation and Buttons
+5. Header and Hero Styles
+6. Divider Styles
+7. About Styles
+8. Work Section Styles
+9. Contact Section
+10. Footer Styles
+----------------------------------------*/
+
+/* -----------------------------------------
+1. COLOR LIBRARY
+-----------------------------------------*/
+
+:root{
+--primary: hsl(0, 0%, 16%);
+--primary-bg: hsl(0, 0%, 96%);
+--primary-dk: hsl(0, 0%, 8%);
+--accent: hsl(247, 82%, 56%);
+--accent-lt: hsl(247, 82%, 90%);
+--accent-dk: hsl(247, 82%, 36%);
+--neutral-lt: hsl(0, 0%, 100%);
+--neutral-dk: hsl(0, 0%, 0%);
 }
 
 
+/* -----------------------------------------
+2. GENERAL STYLES (element selectors)
+-----------------------------------------*/
 
-/*
 body{
 color: #737373;
 font: normal normal 16px/20px 'Nunito Sans',Helvetica,sans-serif;
@@ -66,50 +131,22 @@ color: magenta;
 font-weight: bold;
 color: green;
 }
-body{
-color: #737373;
-font: normal normal 16px/20px 'Nunito Sans',Helvetica,sans-serif;
-letter-spacing: .5px;
+
+.hero{
+background-color: var(--primary-dk);
 }
-ol,ul{
-list-style: none;
+
+.button{
+    display: inline-block;
+    background-color: var(--accent);
+    padding: 12px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    border-radius: 24px;
+    color: #fff;
 }
-a{
-text-decoration: none;
+.button:hover{
+    background-color: var(--accent-dk);
+    transition: 0.5s;
+    
 }
-strong{
-font-weight: 700;
-}
-h1,h2,h3,h4,h5,h6{
-font-weight: 600;
-}
-h2{
-font-size: 34px;
-}
-h3{
-font-size: 28px;
-}
-h4{
-font-size: 22px;
-}
-h6{
-text-transform: uppercase;
-text-align: center;
-}
-ol{
-color:blueviolet;
-}
-h2 strong{
-background-color:yellow;
-}
-#footer ul{
-list-style-type: square;
-}
-.nav a{
-color: magenta;
-}
-.live a{
-font-weight: bold;
-color: green;
-}
-*/
