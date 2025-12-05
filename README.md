@@ -9,6 +9,6 @@
 
 <a href="https://www.figma.com/design/aj8V1WZsreWY20QomByljg/Intro-to-Web?node-id=87-109&p=f" target="_blank">View Figma Public Link</a>
 
-<a href="https://www.figma.com/design/aj8V1WZsreWY20QomByljg/Intro-to-Web?node-id=87-109&p=f" target="_blank">View Final Website</a>
+<a href="https://mirasha296.github.io/Intro-to-Web/" target="_blank">View Final Website</a>
 
 <a href="https://mirasha296.github.io/Intro-to-Web/FinalWebsite/index.html" target="_blank">View Created Final Mockup From Figma to Code</a>
