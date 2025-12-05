@@ -8,3 +8,7 @@
   - Mockups for Desktop & Mobile
     
 [View Figma Public Link](https://www.figma.com/design/aj8V1WZsreWY20QomByljg/Intro-to-Web?node-id=87-109&p=f)
+
+[View Final Website](https://www.figma.com/design/aj8V1WZsreWY20QomByljg/Intro-to-Web?node-id=87-109&p=f)
+
+[View Created Final Mockup From Figma to Code](https://mirasha296.github.io/Intro-to-Web/FinalWebsite/index.html)
