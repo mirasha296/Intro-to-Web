@@ -6,9 +6,9 @@
   - Wireframes in high & low fidelity for both Desktop and Mobile
   - Moodboard, Components & Style Guides
   - Mockups for Desktop & Mobile
-    
-[View Figma Public Link](https://www.figma.com/design/aj8V1WZsreWY20QomByljg/Intro-to-Web?node-id=87-109&p=f)
 
-[View Final Website](https://www.figma.com/design/aj8V1WZsreWY20QomByljg/Intro-to-Web?node-id=87-109&p=f)
+<a href="https://www.figma.com/design/aj8V1WZsreWY20QomByljg/Intro-to-Web?node-id=87-109&p=f" target="_blank">View Figma Public Link</a>
 
-[View Created Final Mockup From Figma to Code](https://mirasha296.github.io/Intro-to-Web/FinalWebsite/index.html)
+<a href="https://www.figma.com/design/aj8V1WZsreWY20QomByljg/Intro-to-Web?node-id=87-109&p=f" target="_blank">View Final Website</a>
+
+<a href="https://mirasha296.github.io/Intro-to-Web/FinalWebsite/index.html" target="_blank">View Created Final Mockup From Figma to Code</a>
