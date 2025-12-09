@@ -70,12 +70,58 @@ TABLE OF CONTENTS
 -----------------------------------------*/
 
 :root{
---primary: hsl(0, 0%, 16%);
---primary-bg: hsl(0, 0%, 96%);
---primary-dk: hsl(0, 0%, 8%);
---accent: hsl(247, 82%, 56%);
---accent-lt: hsl(247, 82%, 90%);
---accent-dk: hsl(247, 82%, 36%);
---neutral-lt: hsl(0, 0%, 100%);
---neutral-dk: hsl(0, 0%, 0%);
+--color1: #F8F4E3;
+--color2: #EAD1A5;
+--color3: #7E5A17;
+--color4: #DDBEA9;
+--color5: #925831;
+--color6: #70492E;
+--color7: #C1C9B3;
+--color8: #A3B18A;
+--color9: #6D7A56;
+--color10: #9CA3AF;
+--color11: #54628B;
+--color12: #1E1F26;
+}
+
+/* -----------------------------------------
+2. GENERAL STYLES
+-----------------------------------------*/
+
+body{
+    background-color: var(--color1);
+    font: normal 400 16px/20px 'Montserrat', sans-serif;
+}
+
+*:before, *:after{
+    box-sizing: border-box;
+    transition: .7s;
+}
+
+h1{
+    font-size: 38px;
+    line-height: 48px
+}
+
+h3{
+    font-size: 30px;
+    line-height: 64px;
+    margin-bottom: 16px;
+}
+
+p{
+    margin-bottom: 16px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* -----------------------------------------
+3. GRID STYLES
+-----------------------------------------*/
+
+.container{
+    width: 1170px;
+    max-width: 90%
 }

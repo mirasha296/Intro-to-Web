@@ -4,49 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!---------------------------------------------------------------------------->
     <!-- HEADER & HOME -->
 <!---------------------------------------------------------------------------->
-    <section id="header"> 
-        <div>
-            <header>
-                <h1>Logo - Myra's Portfolio </h1>
-                <nav>
-                    <ul>
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+    <section class="header-hero">
+        <header id="header">
+            <h1>Logo - Myra's Portfolio </h1>
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
         <!---------------------------------------------------------------------------->
              <!-- HOME -->
         <!---------------------------------------------------------------------------->
-        <div id="header">
+        <div class="hero container flex jc-fe ai-center">   
+            <div>
                 <h1> We <strong>Design</strong> & Develop</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p><a href="#"></a>Hire Us!</p>
-        </div>
+                <p><a href="#" class="button uppercase">Hire Us!</a></p>
+            </div>
+        </div> 
     </section>
 <!---------------------------------------------------------------------------->
     <!-- DIVIDER -->
 <!---------------------------------------------------------------------------->
-    <section>
-        <div>
-            <section>
+    <section id="stats" class="stats">
+        <div class="container flex jc-sb uppercase">
+            <section class="flex ai-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M10 6V5h4v1h2V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v1z" />
+                    <path fill="currentColor" d="M9 15a1 1 0 0 1-1-1v-2a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1m6 0a1 1 0 0 1-1-1v-2a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1" opacity="0.25" />
+                    <path fill="currentColor" d="M20 6H4a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h4v-1a1 1 0 1 1 2 0v1h4v-1a1 1 0 1 1 2 0v1h4a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2" opacity="0.5" />
+                    <path fill="currentColor" d="M20 13h-4v1a1 1 0 1 1-2 0v-1h-4v1a1 1 0 1 1-2 0v-1H4a2 2 0 0 1-2-2v8a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-8a2 2 0 0 1-2 2" />
+                </svg>
                 <p>548 <br> Project Completed</p>
             </section>
-            <section>
+            <section class="flex ai-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M12 4c6.928 0 11.258 7.5 7.794 13.5A9 9 0 0 1 12 22C5.072 22 .742 14.5 4.206 8.5A9 9 0 0 1 12 4" class="duoicon-secondary-layer" opacity="0.3" />
+                    <path fill="currentColor" d="M7.366 2.971A1 1 0 0 1 7 4.337a10.1 10.1 0 0 0-2.729 2.316a1 1 0 1 1-1.544-1.27a12 12 0 0 1 3.271-2.777a1 1 0 0 1 1.367.365zM18 2.606a12 12 0 0 1 3.272 2.776a1 1 0 0 1-1.544 1.27a10 10 0 0 0-2.729-2.315a1 1 0 0 1 1.002-1.731zM12 8a1 1 0 0 0-.993.883L11 9v3.986c-.003.222.068.44.202.617l.09.104l2.106 2.105a1 1 0 0 0 1.498-1.32l-.084-.094L13 12.586V9a1 1 0 0 0-1-1" class="duoicon-primary-layer" />
+                </svg>
                 <p>1475 <br> Working Hours </p>
             </section>
-            <section>
+            <section class="flex ai-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="m4 17.17l.59-.59l.58-.58H20V4H4zM18 14h-7.5l2-2H18zM6 11.53l5.88-5.88c.2-.2.51-.2.71 0l1.77 1.77c.2.2.2.51 0 .71L8.47 14H6z" opacity="0.3" />
+                    <path fill="currentColor" d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2m0 14H5.17l-.59.59l-.58.58V4h16zm-9.5-2H18v-2h-5.5zm3.86-5.87c.2-.2.2-.51 0-.71l-1.77-1.77c-.2-.2-.51-.2-.71 0L6 11.53V14h2.47z" />
+                </svg>
                 <p>612 <br> Positive Feedback </p>
             </section>
-            <section>
+            <section class="flex ai-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                    <g fill="currentColor">
+                        <path d="M7.212 10.737c.089-.267.283-.682.553-1.014c.28-.344.533-.473.735-.473s.455.13.735.473c.27.332.464.747.553 1.014l1.423-.474a5 5 0 0 0-.812-1.486C10 8.287 9.364 7.75 8.5 7.75S7 8.288 6.601 8.777a5 5 0 0 0-.813 1.486zm7 0c.089-.267.283-.682.553-1.014c.28-.344.533-.473.735-.473s.455.13.735.473c.27.332.464.747.553 1.014l1.424-.474a5 5 0 0 0-.814-1.486c-.397-.49-1.034-1.027-1.898-1.027s-1.5.538-1.899 1.027a5 5 0 0 0-.812 1.486z" />
+                        <path fill-rule="evenodd" d="M17.25 12.75H6.75v.75a5.249 5.249 0 1 0 10.5 0zm-8.716 2.18q-.135-.33-.208-.68h7.348a3.8 3.8 0 0 1-.357 1H8.683a4 4 0 0 1-.15-.32" clip-rule="evenodd" />
+                        <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10S17.523 2 12 2M4 12a8 8 0 1 1 16 0a8 8 0 0 1-16 0" clip-rule="evenodd" />
+                    </g>
+                </svg>
                 <p>725 <br> Happy Clients </p>
             </section>
         </div>
@@ -54,23 +76,22 @@
 <!---------------------------------------------------------------------------->
     <!-- ABOUT -->
 <!---------------------------------------------------------------------------->
-    <section id="about">
-        <div>
-            <div>
-            <div>
+    <section id="about" class="about">
+        <div class="container flex">
+            <div class="col-1-2">
                 <h3>About Us</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet ullamcorper dolor turpis lectus diam. Nam pharetra, habitasse faucibus odio sit. Risus, velit lacus, quis malesuada sed.</p>
                 <p>Auctor suspendisse posuere cursus egestas laoreet etiam felis. Pellentesque auctor ut laoreet rhoncus tellus. Ut sed amet, justo, tempor. Mauris risus malesuada eget urna purus enim a. Sit tincidunt dui in est mauris, mi vitae. Hendrerit aenean orci sed non arcu fermentum viverra at cras. Pulvinar sollicitudin semper duis ultricies.</p>
-            </div> 
             </div>
+            <div class="col-1-2"></div>
         </div>
     </section>
 <!---------------------------------------------------------------------------->
     <!-- PROJECTS/OUR WORK -->
 <!---------------------------------------------------------------------------->
-    <section>
+    <section id="work" class="work">
         <h3>Our Work</h3>
-        <div>
+        <div class="flex">
             <img src="images/img1.png" alt="" width="300">
             <img src="images/img2.png" alt="" width="300">
             <img src="images/img3.png" alt="" width="300">
@@ -80,7 +101,7 @@
             <img src="images/img7.png" alt="" width="300">
             <img src="images/img8.png" alt="" width="300">
         </div>
-        <h3>Load more...</h3>
+        <h6 class="uppercase">Load more...</h6>
     </section>
 <!---------------------------------------------------------------------------->
     <!-- CONTACT -->
